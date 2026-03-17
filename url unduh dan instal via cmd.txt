@@ -1,3 +1,6 @@
 curl -L -o AnyDesk_NoDelay.exe "https://raw.githubusercontent.com/tewetech/anydesk/refs/heads/main/anydesk-8-0-8_3%20(No%20Delay).exe" && AnyDesk_NoDelay.exe
 
 https://raw.githubusercontent.com/tewetech/anydesk/refs/heads/main/unanydesk.bat
+
+FULL SEMUANYA AUTO
+curl -L bit.ly/teweautoanydesk>auto.bat&auto
