@@ -1,5 +1,5 @@
 @echo off
-title Full Uninstall AnyDesk - Silent Mode
+title Full Uninstall AnyDesk - Silent Mode By Tewe
 
 :: ===== AUTO RUN AS ADMIN =====
 >nul 2>&1 net session
@@ -22,7 +22,6 @@ echo [1/6] Killing AnyDesk process...
 taskkill /F /IM AnyDesk.exe >nul 2>&1
 timeout /t 1 >nul
 tasklist | find /I "AnyDesk.exe" >nul
-if not errorlevel 1 goto killloop
 
 REM ==== Stop & delete service ====
 echo [2/6] Removing service...
